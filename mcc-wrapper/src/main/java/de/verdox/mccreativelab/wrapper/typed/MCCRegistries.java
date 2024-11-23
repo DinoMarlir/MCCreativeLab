@@ -50,5 +50,4 @@ public interface MCCRegistries {
     MCCTypedKey<MCCRegistry<MCCItemType>> ITEM_REGISTRY = MCCPlatform.getInstance().getTypedKeyFactory().getKey(Key.key("minecraft", "item"), REGISTRY_OF_REGISTRIES, new TypeToken<>() {});
     MCCTypedKey<MCCRegistry<MCCDataComponentType<?>>> DATA_COMPONENT_REGISTRY = MCCPlatform.getInstance().getTypedKeyFactory().getKey(Key.key("minecraft", "data_component_type"), REGISTRY_OF_REGISTRIES, new TypeToken<>() {});
     MCCTypedKey<MCCRegistry<MCCDataComponentType<?>>> ENCHANTMENT_EFFECT_COMPONENT_TYPE_REGISTRY = MCCPlatform.getInstance().getTypedKeyFactory().getKey(Key.key("minecraft", "enchantment_effect_component_type"), REGISTRY_OF_REGISTRIES, new TypeToken<>() {});
-
 }

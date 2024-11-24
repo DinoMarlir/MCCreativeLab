@@ -1,4 +1,4 @@
-package de.verdox.mccreativelab.impl.vanilla.item.alchemy;
+package de.verdox.mccreativelab.wrapper.item.alchemy;
 
 import org.jetbrains.annotations.Nullable;
 
